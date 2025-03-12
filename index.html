@@ -4,67 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog</title>
-  <script>
-  
-    alert('Bienvenue!Cette page est en cours de construction.')
-  </script>
-  <style>
-    body{
-      width: 80%;
-      margin: auto;
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size: 20px;
-    }
-    .topbar{
-      border: 5px solid rgb(233, 238, 238);
-      background-color: rgb(175, 172, 172);
-      margin-top: 5px;
-    }
-    span{
-      color: blue;
-    }
-    h1{
-      background-color: brown;
-      color: white;
-      font-weight: bold;
-      text-align: center;
-    }
-    h2{
-      line-height:5px;
-    }
-    p{
-      text-align: justify;
-      line-height: 35px;
-      word-spacing: 5px;
-      letter-spacing: 5px;
-    }
-    ul{
-      list-style-type: none;
-      display:flex;
-      flex-direction:row ;
-      margin: auto;
-      justify-content: space-between;
-      width: 500px;
-    }
-    li{
-      text-align: center;
-      background-color: rgb(174, 243, 167);
-      width: 30%;
-      font-size: 1.3em;
-      border-radius: 5px;
-    }
-    a{
-      text-decoration: none;
-    }
-  </style>
+  <link rel="stylesheet" href="\stylescript/style.css">
+  <link rel="stylesheet" href="\stylescript/stylesjs.css">
 </head>
 <body>
+<div id="welcome-message" class="hidden">
+  <h1>Bienvenue !</h1>
+  <p>Nous sommes ravis de vous accueillir sur notre site.</p>
+</div>
 <div class="topbar">
   <nav>
     <ul>
       <li> <a href="#"> Actualités</a></li>
       <li><a href="#">Tutoriels</a></li>
-      <li><a href="#">CV</a></li>
+      <li><a href="\cv/cv.html">CV</a></li>
     </ul>
   </nav>
 </div>
@@ -107,5 +60,6 @@
     Quisquam mollitia quod adipisci saepe porro libero delectus aliquid laborum neque! Dignissimos ducimus vitae fugit, tenetur fugiat facere excepturi unde recusandae ullam. Necessitatibus blanditiis maxime quisquam eaque quae reprehenderit nihil!    
   </p>
 </div>
+<script src="\stylescript/script.js"></script>
 </body>
 </html>
