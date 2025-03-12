@@ -1,49 +1,36 @@
-body{
-    width: 80%;
-    margin: auto;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-  }
-  .topbar{
-    border: 5px solid rgb(233, 238, 238);
-    background-color: rgb(175, 172, 172);
-    margin-top: 5px;
-  }
-  span{
-    color: blue;
-  }
-  h1{
-    background-color: brown;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-  }
-  h2{
-    line-height:5px;
-  }
-  p{
-    text-align: justify;
-    line-height: 35px;
-    word-spacing: 5px;
-    letter-spacing: 5px;
-  }
-  ul{
-    list-style-type: none;
-    display:flex;
-    flex-direction:row ;
-    margin: auto;
-    justify-content: space-between;
-    width: 500px;
-  }
-  li{
-    text-align: center;
-    background-color: rgb(174, 243, 167);
-    width: 30%;
-    font-size: 1.3em;
-    border-radius: 5px;
-  }
-  a{
-    text-decoration: none;
-  }
+/* Custom Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
 
-  
+.navbar {
+  margin-bottom: 20px;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #007bff;
+}
+
+pre {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+hr {
+  border-top: 2px solid #007bff;
+}
+
+p {
+  line-height: 1.6;
+}
