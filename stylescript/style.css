@@ -1,36 +1,35 @@
-/* Custom Styles */
+/* Styles personnalisés */
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f8f9fa;
   color: #333;
 }
 
-.navbar {
-  margin-bottom: 20px;
+/* Espacement des sections */
+section {
+  margin-bottom: 3rem;
 }
 
-.container {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
+/* Style pour les titres */
 h1, h2 {
   color: #007bff;
 }
 
+/* Style pour les articles */
+article {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour le texte préformaté */
 pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
   background-color: #f8f9fa;
-  padding: 15px;
+  padding: 1rem;
   border-radius: 8px;
   border: 1px solid #ddd;
-}
-
-hr {
-  border-top: 2px solid #007bff;
-}
-
-p {
-  line-height: 1.6;
 }
